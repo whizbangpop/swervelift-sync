@@ -1,0 +1,23 @@
+{
+  "name": "swervelift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/launch.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "SwerveLift Development Team",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.10.1",
+    "chalk": "^5.3.0",
+    "discord.js": "^14.14.1"
+  }
+}
