@@ -10,7 +10,7 @@ export type LogMessage = {
 /**
  * 
  */
-export type SwerveLogResponse: Object = {
+export interface SwerveLogResponse extends Object {
 	returnType: string;
-	message: string;
+	message: any;
 }
