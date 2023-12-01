@@ -11,7 +11,7 @@ import { error } from 'console';
  * @returns {string} filePath
  */
 export default function createLogFile(logFile: string) : Object {
-	if (!logFile) {
+	if (!logFile || (logFile.length < 2)) {
 		const error: SwerveLogResponse = {
 			returnType: 'error',
 			message: 'InvalidPathError'
